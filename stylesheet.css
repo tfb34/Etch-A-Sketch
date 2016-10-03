@@ -1,0 +1,45 @@
+body{
+	background-image: url("blackBackground.jpg");
+}
+.reset{
+    height:40px;
+    width:60px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+table{
+	margin:0 auto;
+	margin-top: 50px;
+	height:500px;
+	width:500px;
+}
+
+td{
+	
+	border:solid;
+
+}
+td:hover{
+	background-color: pink;
+}
+.paint{
+	background-color: purple;
+}
+.colorPen, .gradient, .other{
+	height:20px;
+	width:20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	background-image: url("colors.JPG");
+	background-size: cover;
+	border:none;
+}
+.gradient{
+	background-image: url("blackWhite.png");
+}
+.other{
+	background-image: url("pencil.png");
+}
